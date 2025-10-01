@@ -32,6 +32,15 @@ body {
     margin-right: 60px;
 }
 
+@media (max-width: 992px) {
+    .section-padding {
+        padding: 60px 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
 /* -- Header et Navigation -- */
 header {
     background: var(--dark-bg);
