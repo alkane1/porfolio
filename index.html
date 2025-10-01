@@ -18,10 +18,10 @@
             <p>Étudiant en Master 2 Génie Logiciel | Recherche de stage en Développement Web Full Stack</p>
             <nav>
                 <ul>
-                    <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#formation">Formation</a></li>
+                    <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
                     <li><a href="Documents/CV.pdf" target="_blank" class="btn-primary">Télécharger le CV</a></li>
                 </ul>
             </nav>
@@ -66,7 +66,7 @@
         </div>
     </section>
 
-    <section id="formation-academique">
+    <section id="formation" class="section-padding">
         <h2 class="section-title">
             <i class="fas fa-graduation-cap icon-title"></i> Formation Académique
         </h2>
@@ -105,45 +105,9 @@
         
         </section>
 
-    <section id="competences" class="section-padding">
-        <div class="container">
-            <h2>Compétences Techniques</h2>
-            <h3>Développement Full Stack</h3>
-            <div class="skills-grid">
-                <div class="skill-item">Front-end:  HTML, CSS, JavaScript,Bootstrap, React, jQuery </div>
-                <div class="skill-item">Back-end: Java, Go, Python </div>
-                <div class="skill-item">Outils : GitHub, VS Code, IntelliJ IDEA </div>
-            </div>
-
-            <h3> DevOps & Cloud Computing</h3>
-            <div class="skills-grid">
-                 <div class="skill-item"> Déploiement : OpenStack, OpenTofu</div>
-                 <div class="skill-item">Conteneurisation: Docker, Ansible </div>
-                 <div class="skill-item"> Intégration et déploiement : GitLab CI/CD </div>
-                 <div class="skill-item"> Monitoring et observabilité : Prometheus, Grafana </div>
-                 <div class="skill-item">  Sécurité : Vault </div>
-                 <div class="skill-item"> Proxy : Traefik </div>
-            </div>
-
-            <h3>  Bases de Données & Business Intelligence</h3>
-            <div class="skills-grid">
-                 <div class="skill-item"> SQL : MySQL, PostgreSQL, Oracle</div>
-                 <div class="skill-item"> NoSQL : MongoDB </div>
-                 <div class="skill-item">  BI : Analyse et gestion des données </div>
-            </div>
-
-            <h3>Jeux Vidéo & Réalité Virtuelle</h3>
-            <div class="skills-grid">
-                 <div class="skill-item">  Jeux : C# avec Unity</div>
-                 <div class="skill-item">  Réalité virtuelle : Logiciel Pressing </div>
-            </div>
-
-            </div>
-    </section>
-
-    <section id="projets-experiences" class="section-padding">
+    <section id="experiences" class="section-padding">
         <h2 class="section-title">
-            <i class="fas fa-briefcase icon-title"></i> Expériences Professionnelles & Projets
+            <i class="fas fa-briefcase icon-title"></i> Expériences Professionnelles
         </h2>
     
         <div class="formation-item">
@@ -172,6 +136,12 @@
                 </p>
             </div>
         </div>
+    </section>
+
+    <section id="projets" class="section-padding">
+        <h2 class="section-title">
+            <i class="fas fa-briefcase icon-title"></i> Projets Académiques
+        </h2>
     
         <div class="formation-item">
             <div class="header-formation">
@@ -253,6 +223,44 @@
         </div>
     </section>
 
+    <section id="competences" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-cogs icon-title"></i> Compétences Techniques
+            </h2>
+            <h3>Développement Full Stack</h3>
+            <div class="skills-grid">
+                <div class="skill-item">Front-end:  HTML, CSS, JavaScript,Bootstrap, React, jQuery </div>
+                <div class="skill-item">Back-end: Java, Go, Python </div>
+                <div class="skill-item">Outils : GitHub, VS Code, IntelliJ IDEA </div>
+            </div>
+
+            <h3> DevOps & Cloud Computing</h3>
+            <div class="skills-grid">
+                 <div class="skill-item"> Déploiement : OpenStack, OpenTofu</div>
+                 <div class="skill-item">Conteneurisation: Docker, Ansible </div>
+                 <div class="skill-item"> Intégration et déploiement : GitLab CI/CD </div>
+                 <div class="skill-item"> Monitoring et observabilité : Prometheus, Grafana </div>
+                 <div class="skill-item">  Sécurité : Vault </div>
+                 <div class="skill-item"> Proxy : Traefik </div>
+            </div>
+
+            <h3>  Bases de Données & Business Intelligence</h3>
+            <div class="skills-grid">
+                 <div class="skill-item"> SQL : MySQL, PostgreSQL, Oracle</div>
+                 <div class="skill-item"> NoSQL : MongoDB </div>
+                 <div class="skill-item">  BI : Analyse et gestion des données </div>
+            </div>
+
+            <h3>Jeux Vidéo & Réalité Virtuelle</h3>
+            <div class="skills-grid">
+                 <div class="skill-item">  Jeux : C# avec Unity</div>
+                 <div class="skill-item">  Réalité virtuelle : Logiciel Pressing </div>
+            </div>
+
+            </div>
+    </section>
+
     <section class="double-column-section">
     
         <div class="info-block langues-block">
@@ -294,9 +302,20 @@
         <div class="container">
             <p>&copy; 2025 Abdou Latif KANE. Tous droits réservés.</p>
             <div class="contact-info">
-                <span><i class="fas fa-envelope"></i> abdoulatifk4@gmail.com </span>
+                <span>
+                    <a href="mailto:abdoulatifk4@gmail.com">
+                        <i class="fas fa-envelope"></i> abdoulatifk4@gmail.com
+                    </a>
+                </span>
+                
                 <span><i class="fas fa-phone"></i> 07 51 20 98 54 </span>
                 <span><i class="fas fa-map-marker-alt"></i> Clermont-Ferrand </span>
+                
+                <span>
+                    <a href="https://www.linkedin.com/in/abdou-latif-kane-721408213/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </span>
             </div>
         </div>
     </footer>

@@ -16,6 +16,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    
 }
 
 .container {
@@ -27,6 +28,8 @@ body {
 
 .section-padding {
     padding: 60px 0;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 /* -- Header et Navigation -- */
